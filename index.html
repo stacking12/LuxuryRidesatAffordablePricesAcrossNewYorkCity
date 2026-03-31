@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cheap Limo Service New York | New York City Limo Service</title>
+<meta name="description" content="Looking for a cheap limo service in New York? New York City Limo Service offers affordable, luxury limousine rentals for airport transfers, weddings, and more. Call 212-380-3631."/>
+<meta name="keywords" content="Limousine Service, Limousine Service New York, Best Limousine Service, Limo Service, Best Limo Service, Best Limo New York, Affordable Limousine Service New York, Limo Rental, Cheap Limo Service, Cheap Limo, Airport Transportation, Airport Shuttle, Airport Limo Service, Wedding Limo Service, Luxury Limo, New York, NY"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --gold: #c9a84c;
+    --gold-light: #e8c96e;
+    --dark: #0a0a0a;
+    --dark2: #111;
+    --dark3: #1a1a1a;
+    --dark4: #222;
+    --text: #e8e8e8;
+    --muted: #999;
+    --white: #fff;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; background: var(--dark); color: var(--text); line-height: 1.7; }
+  a { color: inherit; text-decoration: none; }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+    background: rgba(10,10,10,.92); backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(201,168,76,.2);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 70px;
+  }
+  .nav-logo { display: flex; align-items: center; gap: 12px; }
+  .nav-logo img { height: 46px; border-radius: 6px; }
+  .nav-logo span { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--gold); letter-spacing: .5px; }
+  .nav-links { display: flex; gap: 28px; font-size: .85rem; font-weight: 500; color: var(--muted); }
+  .nav-links a:hover { color: var(--gold); transition: .2s; }
+  .nav-cta { background: var(--gold); color: #000; padding: 9px 20px; border-radius: 4px; font-weight: 600; font-size: .85rem; transition: .2s; }
+  .nav-cta:hover { background: var(--gold-light); }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1408 50%, #0a0a0a 100%);
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    padding: 100px 5% 60px;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(201,168,76,.08) 0%, transparent 70%);
+  }
+  .hero-tag {
+    display: inline-block; background: rgba(201,168,76,.15);
+    border: 1px solid rgba(201,168,76,.4); color: var(--gold);
+    font-size: .78rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+    padding: 6px 16px; border-radius: 20px; margin-bottom: 24px;
+  }
+  .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 4rem); color: var(--white); line-height: 1.2; margin-bottom: 20px; }
+  .hero h1 span { color: var(--gold); }
+  .hero p { max-width: 600px; margin: 0 auto 36px; color: var(--muted); font-size: 1.05rem; }
+  .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .btn-primary { background: var(--gold); color: #000; padding: 14px 32px; border-radius: 4px; font-weight: 700; font-size: .95rem; transition: .2s; }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .btn-outline { border: 1px solid var(--gold); color: var(--gold); padding: 14px 32px; border-radius: 4px; font-weight: 600; font-size: .95rem; transition: .2s; }
+  .btn-outline:hover { background: rgba(201,168,76,.1); }
+  .hero-badges { display: flex; gap: 32px; justify-content: center; margin-top: 52px; flex-wrap: wrap; }
+  .badge { text-align: center; }
+  .badge-num { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--gold); font-weight: 700; }
+  .badge-lbl { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+
+  /* SECTIONS */
+  section { padding: 90px 5%; }
+  .section-label { font-size: .75rem; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.6rem); color: var(--white); margin-bottom: 16px; }
+  .section-sub { color: var(--muted); max-width: 580px; margin-bottom: 48px; }
+  .centered { text-align: center; }
+  .centered .section-sub { margin: 0 auto 48px; }
+
+  /* SERVICES */
+  .services { background: var(--dark2); }
+  .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .svc-card {
+    background: var(--dark3); border: 1px solid rgba(201,168,76,.15);
+    border-radius: 10px; padding: 32px 28px; transition: .3s;
+  }
+  .svc-card:hover { border-color: var(--gold); transform: translateY(-4px); }
+  .svc-icon { font-size: 2rem; margin-bottom: 16px; }
+  .svc-card h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); margin-bottom: 10px; }
+  .svc-card p { font-size: .88rem; color: var(--muted); }
+
+  /* WHY CHOOSE */
+  .why { background: var(--dark); }
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; }
+  .why-item { display: flex; gap: 16px; align-items: flex-start; }
+  .why-icon { width: 44px; height: 44px; background: rgba(201,168,76,.12); border: 1px solid rgba(201,168,76,.3); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+  .why-item h4 { color: var(--white); font-weight: 600; margin-bottom: 6px; font-size: .95rem; }
+  .why-item p { font-size: .85rem; color: var(--muted); }
+
+  /* ABOUT */
+  .about { background: var(--dark2); }
+  .about-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .about-text p { color: var(--muted); margin-bottom: 18px; font-size: .95rem; }
+  .about-text ul { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+  .about-text ul li::before { content: '✦ '; color: var(--gold); font-size: .7rem; }
+  .about-text ul li { font-size: .9rem; color: var(--muted); }
+  .about-map { border-radius: 12px; overflow: hidden; border: 1px solid rgba(201,168,76,.2); }
+  .about-map iframe { display: block; width: 100%; height: 320px; }
+
+  /* FAQ */
+  .faq { background: var(--dark); }
+  .faq-list { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+  .faq-item { background: var(--dark3); border: 1px solid rgba(201,168,76,.15); border-radius: 8px; overflow: hidden; }
+  .faq-q { padding: 18px 24px; font-weight: 600; font-size: .95rem; color: var(--white); cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+  .faq-q span { color: var(--gold); font-size: 1.2rem; transition: .3s; }
+  .faq-a { padding: 0 24px 18px; font-size: .88rem; color: var(--muted); display: none; }
+  .faq-item.open .faq-a { display: block; }
+  .faq-item.open .faq-q span { transform: rotate(45deg); }
+  .faq-item.open { border-color: var(--gold); }
+
+  /* CONTACT */
+  .contact { background: var(--dark2); }
+  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+  .contact-info { display: flex; flex-direction: column; gap: 24px; }
+  .contact-row { display: flex; gap: 14px; align-items: flex-start; }
+  .contact-ico { width: 42px; height: 42px; background: rgba(201,168,76,.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+  .contact-row h4 { font-weight: 600; color: var(--white); font-size: .9rem; margin-bottom: 4px; }
+  .contact-row p, .contact-row a { font-size: .88rem; color: var(--muted); }
+  .contact-row a:hover { color: var(--gold); }
+  .contact-form { background: var(--dark3); border: 1px solid rgba(201,168,76,.15); border-radius: 10px; padding: 36px; }
+  .contact-form h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--white); margin-bottom: 24px; }
+  .form-group { margin-bottom: 18px; }
+  .form-group label { display: block; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+  .form-group input, .form-group select, .form-group textarea {
+    width: 100%; background: var(--dark4); border: 1px solid rgba(255,255,255,.1);
+    color: var(--text); border-radius: 6px; padding: 11px 14px; font-size: .9rem; font-family: inherit; outline: none;
+    transition: .2s;
+  }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); }
+  .form-group textarea { height: 90px; resize: vertical; }
+  .form-submit { background: var(--gold); color: #000; border: none; width: 100%; padding: 14px; border-radius: 6px; font-weight: 700; font-size: .95rem; cursor: pointer; transition: .2s; font-family: inherit; }
+  .form-submit:hover { background: var(--gold-light); }
+
+  /* FOOTER */
+  footer {
+    background: #050505; border-top: 1px solid rgba(201,168,76,.15);
+    text-align: center; padding: 36px 5%;
+  }
+  footer p { color: var(--muted); font-size: .82rem; }
+  footer a { color: var(--gold); }
+  .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; font-size: .82rem; color: var(--muted); flex-wrap: wrap; }
+  .footer-links a:hover { color: var(--gold); }
+
+  @media(max-width: 768px) {
+    nav .nav-links { display: none; }
+    .about-inner, .contact-inner { grid-template-columns: 1fr; gap: 36px; }
+    .hero-badges { gap: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <img src="https://s.floomby.com/uploads/s/310326/GBgYcTTL.jpg" alt="New York City Limo Service Logo" onerror="this.style.display='none'"/>
+    <span>NYC Limo Service</span>
+  </div>
+  <div class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="tel:2123803631" class="nav-cta">📞 Call Now</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h1>Luxury Rides at <span>Affordable Prices</span><br/>Across New York City</h1>
+    <p>Experience first-class limousine service without the first-class price tag. From airport transfers to weddings, we deliver elegance on every ride.</p>
+    <div class="hero-btns">
+      <a href="https://www.newyorkcity-limo.com/#rec2025702083" target="_blank" class="btn-outline">Contacts</a>
+    </div>
+    <div class="hero-badges">
+      
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="centered">
+    <h2 class="section-title">Our Limousine Services</h2>
+    <p class="section-sub">From everyday airport rides to once-in-a-lifetime celebrations, our fleet and professional chauffeurs have you covered across all of New York.</p>
+  </div>
+  <div class="services-grid">
+    <div class="svc-card">
+      <div class="svc-icon">✈️</div>
+      <h3>Airport Limo Service</h3>
+      <p>Reliable, punctual airport transfers to and from JFK, LaGuardia, and Newark. Track your flight in real-time — we adjust for delays at no extra charge.</p>
+    </div>
+    <div class="svc-card">
+      <div class="svc-icon">🚐</div>
+      <h3>Airport Van & Shuttle Service</h3>
+      <p>Traveling in a group? Our spacious airport van and shuttle service accommodates larger parties with ample luggage space and maximum comfort.</p>
+    </div>
+    <div class="svc-card">
+      <div class="svc-icon">💍</div>
+      <h3>Wedding Limo Service</h3>
+      <p>Make your big day unforgettable. Our elegant wedding limousines provide a stunning arrival that sets the tone for the most important day of your life.</p>
+    </div>
+    <div class="svc-card">
+      <div class="svc-icon">🏙️</div>
+      <h3>NYC City Tours & Point-to-Point</h3>
+      <p>Explore the city in style or get from Point A to Point B in comfort. Our chauffeurs know New York inside and out for the smoothest ride possible.</p>
+    </div>
+    <div class="svc-card">
+      <div class="svc-icon">🥂</div>
+      <h3>Corporate & Event Limo Rental</h3>
+      <p>Impress clients and colleagues with our premium corporate limo rentals. Perfect for business meetings, galas, proms, and special events throughout NYC.</p>
+    </div>
+    <div class="svc-card">
+      <div class="svc-icon">💰</div>
+      <h3>Cheap Limo Service NYC</h3>
+      <p>You don't have to break the bank for luxury. Our affordable limo rental packages are designed to give you the full five-star experience at a fraction of the cost.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="why" id="why">
+  <div class="centered">
+    <h2 class="section-title">Why Choose New York City Limo Service?</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-item">
+      <div class="why-icon">💲</div>
+      <div>
+        <h4>Truly Affordable Pricing</h4>
+        <p>Competitive, transparent rates with no hidden fees. Get luxury limousine service at prices that won't surprise you at checkout.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🕐</div>
+      <div>
+        <h4>100% On-Time Guarantee</h4>
+        <p>We monitor traffic and flight schedules in real-time so our chauffeurs are always where they need to be — exactly when they need to be.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">👔</div>
+      <div>
+        <h4>Professional Chauffeurs</h4>
+        <p>All our drivers are fully licensed, background-checked, and trained to deliver a courteous, five-star experience from pickup to drop-off.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🚘</div>
+      <div>
+        <h4>Premium Fleet</h4>
+        <p>Choose from a diverse fleet of meticulously maintained sedans, SUVs, stretch limos, and vans to match your needs and group size.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">📱</div>
+      <div>
+        <h4>Easy Online Booking</h4>
+        <p>Reserve your ride in minutes through our website or by phone. Our 24/7 support team is always ready to assist with your booking.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🌟</div>
+      <div>
+        <h4>5-Star Rated by Customers</h4>
+        <p>Hundreds of satisfied customers across New York trust us for airport rides, weddings, and corporate travel — and keep coming back.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🗺️</div>
+      <div>
+        <h4>All of NYC & Tri-State Area</h4>
+        <p>We cover all five boroughs, JFK, LGA, EWR, Long Island, Westchester, New Jersey, and Connecticut — wherever you need to go.</p>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🔒</div>
+      <div>
+        <h4>Safe & Fully Insured</h4>
+        <p>Every vehicle in our fleet is fully insured and undergoes regular safety inspections so you can relax and enjoy the ride with total peace of mind.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <h2 class="section-title">About Our Cheap Limo Service in New York</h2>
+      <p>New York City Limo Service is a premier transportation company based in Midtown Manhattan, proudly serving residents, visitors, and businesses across all of New York City and the surrounding Tri-State Area.</p>
+      <p>We founded our company on a simple belief: that everyone deserves a safe, comfortable, and luxurious ride — without the outrageous price tag. Our <strong style="color:var(--gold)">cheap limo service</strong> was built to bridge the gap between affordability and elegance, delivering a five-star experience at rates that make sense for real people.</p>
+      <p>Whether you need a sleek sedan for an early morning airport run, a stretch limo for a wedding, or a spacious van for a corporate group, our professional chauffeurs and well-maintained fleet are ready to exceed your expectations every time.</p>
+      <ul>
+        <li>Serving JFK, LaGuardia & Newark Airports</li>
+        <li>Wedding, Corporate & Special Event Rides</li>
+        <li>Available 24 hours a day, 7 days a week</li>
+        <li>Locally owned and operated in New York City</li>
+        <li>Hundreds of 5-star reviews from happy customers</li>
+      </ul>
+    </div>
+    <div class="about-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.3852905072263!2d-73.98577690219955!3d40.74507342403333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24518ceaaf0b5%3A0xfab881131e8e455d!2sNew%20York%20City%20Limo%20Service!5e0!3m2!1sen!2s!4v1774941776312!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="centered">
+    <div class="section-label">Got Questions?</div>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-sub">Here are answers to some of the most common questions about our cheap limo service in New York City.</p>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFAQ(this)">How affordable is your cheap limo service in New York? <span>+</span></div>
+      <div class="faq-a">At New York City Limo Service, we believe luxury shouldn't be a luxury expense. Our pricing is designed to be transparent and competitive — with no hidden fees or surprise surcharges. Whether you're booking an airport transfer, a wedding limo, or a corporate ride, you'll always get upfront rates and exceptional value. Call us at 212-380-3631 or visit our website for a free quote.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFAQ(this)">What airports do you service? <span>+</span></div>
+      <div class="faq-a">We provide professional airport limo and van service to and from all major New York area airports including John F. Kennedy International Airport (JFK), LaGuardia Airport (LGA), and Newark Liberty International Airport (EWR). Our drivers monitor your flight status in real-time so they're always ready — even if your flight is delayed.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFAQ(this)">How far in advance should I book a limo? <span>+</span></div>
+      <div class="faq-a">We recommend booking as early as possible, especially for weddings and special events where availability can fill up quickly. For airport transfers and general rides, we typically accommodate same-day bookings depending on availability. To guarantee your preferred vehicle and time, booking 24–48 hours in advance is ideal. You can book online at newyorkcity-limo.com or call us at 212-380-3631.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFAQ(this)">Do you offer service outside of Manhattan? <span>+</span></div>
+      <div class="faq-a">Absolutely. While we're based in Midtown Manhattan at 36 E 31st St, our service area covers all five boroughs of New York City as well as Long Island, Westchester County, New Jersey, and Connecticut. Whether you're heading to a venue in Brooklyn, a hotel in the Bronx, or a business meeting in New Jersey, we've got you covered.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFAQ(this)">Are your chauffeurs professional and background-checked? <span>+</span></div>
+      <div class="faq-a">Yes, absolutely. Every chauffeur at New York City Limo Service is fully licensed, professionally trained, and has undergone a thorough background check. We take your safety and comfort very seriously. Our drivers are courteous, punctual, and knowledgeable about New York City routes — so you can sit back, relax, and enjoy the ride.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="centered" style="margin-bottom:48px">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Contact Information</h2>
+    <p class="section-sub">Ready to book your ride or have a question? Reach out to us anytime — we're available 24/7 to assist you.</p>
+  </div>
+  <div class="contact-inner">
+    <div class="contact-info">
+      <div class="contact-row">
+       <h4>Business Name</h4>
+          <p>New York City Limo Service</p>
+        <div class="contact-ico">📍</div>
+       
+        <div>
+          <h4>Our Address</h4>
+          <p>36 E 31st St, New York, NY 10016</p>
+        </div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-ico">📞</div>
+        <div>
+          <h4>Phone Number</h4>
+          <a href="tel:2123803631">212-380-3631</a>
+        </div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-ico">🌐</div>
+        <div>
+          <h4>Website</h4>
+          <a href="https://www.newyorkcity-limo.com/" target="_blank">www.newyorkcity-limo.com</a>
+        </div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-ico">🗺️</div>
+        <div>
+          <h4>Find Us on Google Maps</h4>
+          <a href="https://www.google.com/maps?cid=18066331824313746781" target="_blank">View Our Google Business Profile</a>
+        </div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-ico">🕐</div>
+        <div>
+          <h4>Hours of Operation</h4>
+          <p>Available 24 Hours a Day, 7 Days a Week</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3>Request a Quote</h3>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="John Smith"/>
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="(212) 000-0000"/>
+      </div>
+      <div class="form-group">
+        <label>Service Needed</label>
+        <select>
+          <option>Airport Limo Service</option>
+          <option>Airport Van / Shuttle</option>
+          <option>Wedding Limo Service</option>
+          <option>Corporate / Event Ride</option>
+          <option>City Transfer / Tour</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Additional Details</label>
+        <textarea placeholder="Pickup location, date, number of passengers..."></textarea>
+      </div>
+      <button class="form-submit" onclick="alert('Thank you! We will contact you shortly. You can also call us at 212-380-3631.')">Send Request</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="https://www.newyorkcity-limo.com/" target="_blank">Book Online</a>
+  </div>
+  <p>© 2026 <strong style="color:var(--gold)">New York City Limo Service</strong> · 36 E 31st St, New York, NY 10016 · <a href="tel:2123803631">212-380-3631</a></p>
+  <p style="margin-top:8px; font-size:.75rem;">Cheap Limo Service New York | Limousine Service NYC | Airport Limo | Wedding Limo | Limo Rental New York</p>
+</footer>
+
+<script>
+  function toggleFAQ(el) {
+    const item = el.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+</script>
+</body>
+</html>
